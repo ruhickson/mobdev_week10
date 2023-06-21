@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
-import { environment } from 'src/environments/environment';
+import { environment } from 'src/environments/environment.prod';
 
 const API_URL = environment.API_URL;
 const API_KEY = environment.API_KEY;
