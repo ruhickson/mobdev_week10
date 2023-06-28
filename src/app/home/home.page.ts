@@ -27,7 +27,7 @@ export class HomePage {
   }
 
   loadData(){
-      this.httpClient.get<WeatherResponse>(`${API_URL}/weather?q=${"Dublin"}&appid=${API_KEY}`).subscribe(results =>{
+      this.httpClient.get<WeatherResponse>(`${API_URL}/weather?q=${"Dublin"}&appid=4fd2407d51bd610343dcad0568c672c3`).subscribe(results =>{
         console.log(results);
         this.weatherValues = results.main
     })
